@@ -5,7 +5,7 @@ import { Catalog } from "@/components/catalog";
 export const metadata: Metadata = {
   title: "Katalog Hampers",
   description:
-    "Jelajahi koleksi hampers premium Centrepreneur untuk Lebaran, Natal & Tahun Baru, Wedding, Corporate, dan Birthday. Filter berdasarkan kategori, harga, dan momen.",
+    "Jelajahi koleksi hampers buah premium Centrepreneur untuk Idul Adha dan Christmas. Filter berdasarkan kategori, harga, dan momen.",
 };
 
 export default async function ProductsPage({

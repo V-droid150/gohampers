@@ -65,7 +65,7 @@ const testimonials = [
 ];
 
 export default function Home() {
-  const featured = getFeaturedProducts().slice(0, 8);
+  const featured = getFeaturedProducts().slice(0, 6);
 
   return (
     <>
@@ -85,6 +85,13 @@ export default function Home() {
         />
         <div className="container-luxe relative grid items-center gap-10 py-16 lg:grid-cols-2 lg:py-24">
           <div>
+            <Image
+              src="/logo-mark.svg"
+              alt=""
+              width={64}
+              height={64}
+              className="mb-5 lg:hidden"
+            />
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-gold">
               Centrepreneur · {siteConfig.city}
             </p>
@@ -92,17 +99,23 @@ export default function Home() {
               Hampers untuk <span className="text-gold">momen istimewa</span>
             </h1>
             <p className="mt-5 max-w-xl leading-relaxed text-cream/80">
-              Dari Lebaran hingga hari pernikahan, dari apresiasi klien hingga
-              kejutan ulang tahun — kami merangkai hadiah yang berbicara lebih
-              dalam daripada kata-kata.
+              Dari Idul Adha hingga Natal — kami merangkai hampers buah premium
+              yang segar, anggun, dan berbicara lebih dalam daripada kata-kata.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/products" className={buttonClasses("gold", "lg")}>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <Link
+                href="/products"
+                className={buttonClasses("gold", "lg", "w-full sm:w-auto")}
+              >
                 Jelajahi Katalog
               </Link>
               <Link
                 href="/custom"
-                className={buttonClasses("outline", "lg", "border-cream/40 text-cream hover:bg-cream/10")}
+                className={buttonClasses(
+                  "outline",
+                  "lg",
+                  "w-full border-cream/40 text-cream hover:bg-cream/10 sm:w-auto"
+                )}
               >
                 Buat Hampers Custom
               </Link>
@@ -137,7 +150,7 @@ export default function Home() {
           title="Untuk Setiap Momen Berharga"
           description="Pilih rangkaian yang sesuai dengan perayaan Anda — semuanya dikemas dengan standar yang sama: anggun dan berkelas."
         />
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        <div className="mx-auto grid max-w-xl grid-cols-1 gap-4 sm:grid-cols-2">
           {categories.map((cat) => (
             <Link
               key={cat.slug}
@@ -148,6 +161,7 @@ export default function Home() {
                 <Gift className="h-5 w-5" aria-hidden />
               </span>
               <p className="mt-4 font-serif text-lg text-brand">{cat.name}</p>
+              <p className="mt-1 text-sm text-muted">{cat.description}</p>
             </Link>
           ))}
         </div>
@@ -161,7 +175,7 @@ export default function Home() {
             title="Hampers Terpopuler Kami"
             description="Rangkaian yang paling sering dipilih pelanggan — dari yang klasik hingga yang paling mewah."
           />
-          <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
             {featured.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
@@ -240,7 +254,7 @@ export default function Home() {
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className={buttonClasses("whatsapp", "lg", "mt-8")}
+            className={buttonClasses("whatsapp", "lg", "mt-8 w-full sm:w-auto")}
           >
             <MessageCircle className="h-5 w-5" aria-hidden />
             Chat WhatsApp Admin

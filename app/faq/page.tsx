@@ -36,7 +36,7 @@ const steps = [
 const faqs = [
   {
     q: "Berapa lama waktu pemrosesan pesanan?",
-    a: "Pesanan reguler diproses 1–2 hari kerja. Untuk custom hampers atau jumlah besar (di atas 20 box), waktu produksi 3–5 hari kerja. Kami sarankan memesan lebih awal menjelang musim ramai seperti Lebaran dan Natal.",
+    a: "Pesanan reguler diproses 1–2 hari kerja. Untuk custom hampers atau jumlah besar (di atas 20 box), waktu produksi 3–5 hari kerja. Kami sarankan memesan lebih awal menjelang musim ramai seperti Idul Adha dan Natal.",
   },
   {
     q: "Apakah bisa same-day delivery?",
@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: "Apakah melayani pengiriman ke luar kota?",
-    a: "Ya, kami mengirim ke seluruh Indonesia melalui JNE, J&T, dan SiCepat. Untuk isi yang mudah rusak (kue basah, cake jar), kami sarankan pengiriman dalam Jabodetabek saja.",
+    a: "Ya, kami mengirim ke seluruh Indonesia melalui JNE, J&T, dan SiCepat. Karena berisi buah segar, untuk tujuan luar Jabodetabek kami sarankan layanan tercepat (1–2 hari) agar kesegaran tetap terjaga.",
   },
   {
     q: "Apakah ada harga khusus untuk pesanan korporat?",

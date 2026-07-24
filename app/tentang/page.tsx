@@ -37,17 +37,16 @@ export default function TentangPage() {
             <strong className="text-brand">Centrepreneur</strong> lahir dari
             keyakinan sederhana: hadiah terbaik bukanlah yang paling mahal,
             melainkan yang paling diperhatikan detailnya. Berbasis di{" "}
-            {siteConfig.city}, kami merangkai hampers untuk momen-momen yang
-            layak dikenang — Lebaran bersama keluarga, Natal yang hangat, hari
-            pernikahan, apresiasi untuk rekan bisnis, hingga kejutan ulang
-            tahun.
+            {siteConfig.city}, kami merangkai hampers buah premium untuk
+            momen-momen yang layak dikenang — Idul Adha bersama keluarga,
+            Natal yang hangat, hingga apresiasi untuk rekan bisnis.
           </p>
           <p>
-            Setiap isi hampers kami kurasi dari produsen artisan lokal yang
-            terpercaya — kue kering yang dipanggang perlahan, kopi single
-            origin dari petani Indonesia, lilin soy yang dituang tangan. Lalu
-            semuanya dikemas dengan standar yang tidak kami kompromikan: box
-            berkualitas, pita satin, dan kartu ucapan yang ditulis rapi.
+            Setiap isi hampers kami kurasi langsung dari pemasok terpercaya —
+            buah segar pilihan yang disortir satu per satu, kurma dan cokelat
+            premium, serta madu artisan. Lalu semuanya dikemas dengan standar
+            yang tidak kami kompromikan: box dan keranjang berkualitas, pita
+            satin, dan kartu ucapan yang ditulis rapi.
           </p>
           <p>
             Untuk pesanan korporat dan pernikahan dalam jumlah besar, tim kami

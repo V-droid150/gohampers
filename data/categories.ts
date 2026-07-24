@@ -2,34 +2,16 @@ import type { Category } from "@/types";
 
 export const categories: Category[] = [
   {
-    slug: "lebaran",
-    name: "Lebaran",
+    slug: "idul-adha",
+    name: "Idul Adha",
     description:
-      "Rangkaian hampers Idul Fitri yang hangat dan penuh makna — dari kurma premium hingga kue kering klasik.",
+      "Hampers buah premium untuk merayakan Idul Adha — segar, elegan, dan penuh makna untuk keluarga maupun kolega.",
   },
   {
-    slug: "natal-tahun-baru",
-    name: "Natal & Tahun Baru",
+    slug: "christmas",
+    name: "Christmas",
     description:
-      "Sambut akhir tahun dengan hampers bernuansa perayaan yang elegan dan menghangatkan.",
-  },
-  {
-    slug: "wedding",
-    name: "Wedding",
-    description:
-      "Door gift, bridesmaid box, hingga hantaran — dikemas anggun untuk hari paling istimewa.",
-  },
-  {
-    slug: "corporate",
-    name: "Corporate",
-    description:
-      "Apresiasi klien dan tim dengan hampers korporat yang berkelas, lengkap dengan opsi branding.",
-  },
-  {
-    slug: "birthday",
-    name: "Birthday",
-    description:
-      "Kejutan ulang tahun yang manis dan berkesan, dikurasi untuk segala usia.",
+      "Rangkaian Natal yang hangat: buah pilihan, cokelat, dan sentuhan khas perayaan dalam kemasan berkelas.",
   },
 ];
 

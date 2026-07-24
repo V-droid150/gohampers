@@ -95,7 +95,7 @@ export function CustomBuilder() {
       name: `Custom Hampers (${box.name})`,
       price: total,
       qty: 1,
-      image: "/products/syawal-elegance.jpg",
+      image: "/products/idul-adha-elegant.jpg",
       custom: buildSelection(),
     });
     setAdded(true);

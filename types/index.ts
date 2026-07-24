@@ -1,9 +1,4 @@
-export type CategorySlug =
-  | "lebaran"
-  | "natal-tahun-baru"
-  | "wedding"
-  | "corporate"
-  | "birthday";
+export type CategorySlug = "idul-adha" | "christmas";
 
 export interface Category {
   slug: CategorySlug;

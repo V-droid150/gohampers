@@ -235,7 +235,7 @@ export function Catalog({ products, initialCategory }: CatalogProps) {
         </p>
 
         {visible.length > 0 ? (
-          <div className="grid grid-cols-2 gap-4 sm:gap-6 xl:grid-cols-3">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 xl:grid-cols-3">
             {visible.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}

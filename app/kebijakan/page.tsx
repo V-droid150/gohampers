@@ -43,8 +43,9 @@ export default function KebijakanPage() {
                 ke kurir.
               </li>
               <li>
-                Untuk isi yang mudah rusak (cake jar, kue basah), pengiriman
-                kami batasi hanya untuk wilayah Jabodetabek.
+                Karena berisi buah segar, untuk tujuan luar Jabodetabek kami
+                sarankan layanan pengiriman tercepat (1–2 hari) agar kesegaran
+                tetap terjaga.
               </li>
             </ul>
           </section>
@@ -78,7 +79,7 @@ export default function KebijakanPage() {
           <section>
             <h2 className="font-serif text-2xl text-brand">Catatan Musim Ramai</h2>
             <p className="mt-3 text-sm leading-relaxed">
-              Menjelang Lebaran, Natal, dan Tahun Baru, volume pengiriman
+              Menjelang Idul Adha, Natal, dan Tahun Baru, volume pengiriman
               nasional meningkat tajam. Kami menyarankan pemesanan minimal 7
               hari sebelum tanggal yang diinginkan agar hampers tiba tepat
               waktu.
