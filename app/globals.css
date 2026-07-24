@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palet Gohampers — elegan & mewah */
+  --color-brand: #14342b;
+  --color-brand-light: #1e4a3c;
+  --color-brand-dark: #0c231d;
+  --color-gold: #c9a227;
+  --color-gold-light: #ddbe5c;
+  --color-gold-dark: #a3821b;
+  --color-cream: #f7f3e9;
+  --color-cream-dark: #ede6d6;
+  --color-ink: #26251f;
+  --color-muted: #6f6a5c;
+
+  --font-serif: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background-color: var(--color-gold);
+  color: var(--color-brand-dark);
+}
+
+/* Container standar situs */
+.container-luxe {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 76rem;
+  padding-inline: 1.25rem;
+}
+@media (min-width: 640px) {
+  .container-luxe {
+    padding-inline: 2rem;
+  }
+}
+
+/* Garis pembatas emas tipis */
+.gold-rule {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-gold) 20%,
+    var(--color-gold) 80%,
+    transparent
+  );
+}
+
+/* Fokus keyboard yang jelas namun elegan */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
