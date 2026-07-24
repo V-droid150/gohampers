@@ -1,13 +1,13 @@
 export const siteConfig = {
-  name: "Gohampers",
+  name: "Centrepreneur",
   tagline: "Hampers untuk momen istimewa",
   description:
-    "Gohampers menghadirkan hampers premium untuk Lebaran, Natal & Tahun Baru, Wedding, Corporate, dan Birthday. Dikurasi dengan cita rasa, dikemas dengan keanggunan, dikirim dari Jakarta ke seluruh Indonesia.",
-  url: "https://gohampers.vercel.app",
+    "Centrepreneur menghadirkan hampers premium untuk Lebaran, Natal & Tahun Baru, Wedding, Corporate, dan Birthday. Dikurasi dengan cita rasa, dikemas dengan keanggunan, dikirim dari Jakarta ke seluruh Indonesia.",
+  url: "https://centrepreneur.vercel.app",
   city: "Jakarta",
   // PENTING: nomor placeholder — ganti dengan nomor WhatsApp admin asli sebelum go-live.
   whatsappNumber: "6281234567890",
-  email: "halo@gohampers.id", // opsional — ganti bila sudah ada
+  email: "halo@centrepreneur.id", // opsional — ganti bila sudah ada
   address: "Jakarta, Indonesia",
-  instagram: "gohampers.id",
+  instagram: "centrepreneur.id",
 } as const;

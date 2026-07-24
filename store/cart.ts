@@ -61,7 +61,7 @@ export const useCartStore = create<CartState>()(
       clear: () => set({ items: [], note: "" }),
       setNote: (note) => set({ note }),
     }),
-    { name: "gohampers-cart" }
+    { name: "centrepreneur-cart" }
   )
 );
 

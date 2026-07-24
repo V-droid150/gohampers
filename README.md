@@ -1,4 +1,4 @@
-# Gohampers — Hampers untuk Momen Istimewa
+# Centrepreneur — Hampers untuk Momen Istimewa
 
 Website e-commerce hampers premium (Lebaran, Natal & Tahun Baru, Wedding, Corporate, Birthday) dengan nuansa elegan deep green–gold–cream. Dibangun dengan Next.js App Router, siap dikembangkan menjadi toko yang beroperasi nyata.
 
@@ -29,15 +29,15 @@ app/                  Halaman (App Router)
   cart/  checkout/    Keranjang & checkout
   order/success/      Konfirmasi pesanan
   tentang/ faq/ kebijakan/ kontak/   Halaman statis
-  sitemap.ts robots.ts               SEO
+  sitemap.ts robots.ts icon.svg      SEO & favicon
 components/           Komponen (ui/ = komponen dasar, layout/ = navbar & footer)
 data/                 Seed catalog: products.ts, categories.ts, custom-options.ts
 lib/                  site.ts (konfigurasi brand), whatsapp.ts, shipping.ts,
                       payment.ts (abstraksi + simulasi), orders.ts, utils.ts
 store/                cart.ts (Zustand)
 types/                Tipe bersama
-scripts/              generate-placeholders.mjs (gambar SVG placeholder)
-public/products/      Gambar produk (placeholder — ganti dengan foto asli)
+public/logo-mark.svg  Logo monogram Centrepreneur
+public/products/      Foto produk  ·  public/hero.jpg  Foto hero
 ```
 
 ## Konfigurasi Brand
@@ -48,9 +48,11 @@ Semua identitas ada di `lib/site.ts`:
 - `url` — ganti dengan domain produksi (dipakai untuk metadata & sitemap).
 - Email/alamat/Instagram — opsional.
 
-## Mengganti Data Produk
+Logo: `public/logo-mark.svg` (monogram C emas) dan `app/icon.svg` (favicon).
 
-Edit `data/products.ts` (struktur ada di `types/index.ts`). Untuk foto asli: letakkan file di `public/products/`, isi `images` produk, dan hapus opsi `dangerouslyAllowSVG` di `next.config.ts` bila SVG placeholder tidak dipakai lagi. Placeholder dapat dibuat ulang dengan `node scripts/generate-placeholders.mjs`.
+## Foto Produk
+
+Foto saat ini adalah stok dari [Unsplash](https://unsplash.com/license) (gratis untuk komersial, tanpa atribusi wajib). Untuk memakai foto asli brand: letakkan file di `public/products/`, lalu perbarui path `images` pada `data/products.ts`. Satu produk boleh punya beberapa foto — galeri di halaman detail otomatis menampilkan thumbnail bila lebih dari satu.
 
 ## Integrasi Nyata (TODO)
 

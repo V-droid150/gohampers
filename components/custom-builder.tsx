@@ -95,7 +95,7 @@ export function CustomBuilder() {
       name: `Custom Hampers (${box.name})`,
       price: total,
       qty: 1,
-      image: "/products/syawal-elegance-2-v2.svg",
+      image: "/products/syawal-elegance.jpg",
       custom: buildSelection(),
     });
     setAdded(true);
@@ -251,7 +251,7 @@ export function CustomBuilder() {
           <StepHeading
             step={4}
             title="Kartu Ucapan"
-            hint="Opsional — kami tuliskan dengan rapi pada kartu eksklusif Gohampers."
+            hint="Opsional — kami tuliskan dengan rapi pada kartu eksklusif Centrepreneur."
           />
           <div className="grid gap-4 sm:grid-cols-2">
             <div>

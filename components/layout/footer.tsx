@@ -10,7 +10,7 @@ export function Footer() {
       <div className="gold-rule" />
       <div className="container-luxe grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p className="font-serif text-2xl font-semibold">Gohampers</p>
+          <p className="font-serif text-2xl font-semibold">Centrepreneur</p>
           <p className="mt-1 text-xs uppercase tracking-[0.25em] text-gold">
             {siteConfig.tagline}
           </p>

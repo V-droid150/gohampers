@@ -7,7 +7,7 @@ import { buttonClasses } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Cara Pemesanan & FAQ",
   description:
-    "Panduan lengkap cara memesan hampers di Gohampers beserta jawaban atas pertanyaan yang paling sering diajukan.",
+    "Panduan lengkap cara memesan hampers di Centrepreneur beserta jawaban atas pertanyaan yang paling sering diajukan.",
 };
 
 const steps = [

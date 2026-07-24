@@ -6,7 +6,7 @@ import type { Order } from "@/types";
  * melalui route handler / server action.
  */
 
-const STORAGE_KEY = "gohampers-orders";
+const STORAGE_KEY = "centrepreneur-orders";
 
 export function saveOrder(order: Order): void {
   if (typeof window === "undefined") return;

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Kebijakan Pengiriman & Pengembalian",
   description:
-    "Ketentuan pengiriman, jadwal, serta kebijakan pengembalian dan penggantian produk Gohampers.",
+    "Ketentuan pengiriman, jadwal, serta kebijakan pengembalian dan penggantian produk Centrepreneur.",
 };
 
 export default function KebijakanPage() {

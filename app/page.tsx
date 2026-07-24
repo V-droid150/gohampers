@@ -70,11 +70,23 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-brand text-cream">
-        <div className="container-luxe grid items-center gap-10 py-16 lg:grid-cols-2 lg:py-24">
+      <section className="relative overflow-hidden bg-brand text-cream">
+        <Image
+          src="/hero.jpg"
+          alt="Keranjang hampers premium dengan kemasan hangat dan elegan"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div
+          className="absolute inset-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/85 to-brand-dark/50"
+          aria-hidden
+        />
+        <div className="container-luxe relative grid items-center gap-10 py-16 lg:grid-cols-2 lg:py-24">
           <div>
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-gold">
-              Gohampers · {siteConfig.city}
+              Centrepreneur · {siteConfig.city}
             </p>
             <h1 className="font-serif text-4xl leading-tight sm:text-5xl lg:text-6xl">
               Hampers untuk <span className="text-gold">momen istimewa</span>
@@ -99,15 +111,21 @@ export default function Home() {
               Dipercaya 1.000+ pelanggan & 50+ perusahaan di Indonesia
             </p>
           </div>
-          <div className="relative aspect-[16/10] overflow-hidden rounded-lg border border-gold/40">
+          <div className="hidden flex-col items-center justify-center lg:flex">
             <Image
-              src="/hero-v2.svg"
-              alt="Rangkaian hampers premium Gohampers dengan nuansa hijau dan emas"
-              fill
+              src="/logo-mark.svg"
+              alt="Logo Centrepreneur"
+              width={200}
+              height={200}
               priority
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
             />
+            <p className="mt-8 font-serif text-3xl tracking-[0.2em] text-cream">
+              CENTREPRENEUR
+            </p>
+            <div className="gold-rule mt-4 w-28" />
+            <p className="mt-4 text-xs uppercase tracking-[0.3em] text-gold">
+              {siteConfig.tagline}
+            </p>
           </div>
         </div>
       </section>
@@ -159,7 +177,7 @@ export default function Home() {
       {/* Kenapa memilih kami */}
       <section className="container-luxe py-16 lg:py-20">
         <SectionHeading
-          eyebrow="Kenapa Gohampers"
+          eyebrow="Kenapa Centrepreneur"
           title="Detail Kecil, Kesan Besar"
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
     url: siteConfig.url,
-    images: [{ url: "/hero-v2.svg", width: 1600, height: 900, alt: "Gohampers — hampers premium" }],
+    images: [{ url: "/hero.jpg", width: 1920, height: 1080, alt: "Centrepreneur — hampers premium" }],
   },
   twitter: {
     card: "summary_large_image",

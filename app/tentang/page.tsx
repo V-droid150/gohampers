@@ -7,7 +7,7 @@ import { buttonClasses } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Tentang Kami",
   description:
-    "Kenali Gohampers — spesialis hampers premium dari Jakarta yang percaya bahwa hadiah terbaik adalah perhatian yang dikemas dengan keanggunan.",
+    "Kenali Centrepreneur — spesialis hampers premium dari Jakarta yang percaya bahwa hadiah terbaik adalah perhatian yang dikemas dengan keanggunan.",
 };
 
 export default function TentangPage() {
@@ -24,8 +24,8 @@ export default function TentangPage() {
 
         <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-lg border border-gold/30">
           <Image
-            src="/hero-v2.svg"
-            alt="Nuansa hijau dan emas khas Gohampers"
+            src="/hero.jpg"
+            alt="Keranjang hampers premium Centrepreneur"
             fill
             sizes="(max-width: 768px) 100vw, 768px"
             className="object-cover"
@@ -34,7 +34,7 @@ export default function TentangPage() {
 
         <div className="mt-8 space-y-5 leading-relaxed text-ink/85">
           <p>
-            <strong className="text-brand">Gohampers</strong> lahir dari
+            <strong className="text-brand">Centrepreneur</strong> lahir dari
             keyakinan sederhana: hadiah terbaik bukanlah yang paling mahal,
             melainkan yang paling diperhatikan detailnya. Berbasis di{" "}
             {siteConfig.city}, kami merangkai hampers untuk momen-momen yang

@@ -3,7 +3,7 @@ import { OrderSuccess } from "@/components/order-success";
 
 export const metadata: Metadata = {
   title: "Pesanan Berhasil",
-  description: "Konfirmasi pesanan hampers Anda di Gohampers.",
+  description: "Konfirmasi pesanan hampers Anda di Centrepreneur.",
   robots: { index: false },
 };
 

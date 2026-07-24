@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, ShoppingBag, X } from "lucide-react";
@@ -31,12 +32,21 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-brand/10 bg-cream/95 backdrop-blur">
       <div className="container-luxe flex h-16 items-center justify-between gap-4">
-        <Link href="/" className="flex items-baseline gap-1" aria-label="Gohampers — beranda">
-          <span className="font-serif text-2xl font-semibold tracking-wide text-brand">
-            Gohampers
-          </span>
-          <span className="hidden text-xs uppercase tracking-[0.2em] text-gold-dark sm:inline">
-            Jakarta
+        <Link href="/" className="flex items-center gap-2.5" aria-label="Centrepreneur — beranda">
+          <Image
+            src="/logo-mark.svg"
+            alt=""
+            width={34}
+            height={34}
+            className="h-[34px] w-[34px]"
+          />
+          <span className="flex items-baseline gap-1.5">
+            <span className="font-serif text-xl font-semibold tracking-wide text-brand sm:text-2xl">
+              Centrepreneur
+            </span>
+            <span className="hidden text-xs uppercase tracking-[0.2em] text-gold-dark md:inline">
+              Jakarta
+            </span>
           </span>
         </Link>
 

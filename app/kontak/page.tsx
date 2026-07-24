@@ -7,7 +7,7 @@ import { buttonClasses } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Kontak",
   description:
-    "Hubungi tim Gohampers untuk konsultasi hampers, pesanan korporat, atau pertanyaan lainnya — via WhatsApp, email, atau Instagram.",
+    "Hubungi tim Centrepreneur untuk konsultasi hampers, pesanan korporat, atau pertanyaan lainnya — via WhatsApp, email, atau Instagram.",
 };
 
 export default function KontakPage() {
