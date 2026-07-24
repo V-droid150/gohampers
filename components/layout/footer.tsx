@@ -85,7 +85,7 @@ export function Footer() {
       </div>
       <div className="border-t border-cream/10 py-5">
         <p className="container-luxe text-center text-xs text-cream/50">
-          © {new Date().getFullYear()} {siteConfig.name}. Seluruh hak cipta dilindungi.
+          © {new Date().getFullYear()} {siteConfig.name}
         </p>
       </div>
     </footer>
