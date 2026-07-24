@@ -14,7 +14,7 @@ export const products: Product[] = [
     category: "lebaran",
     occasions: ["lebaran", "idul fitri", "ramadan", "keluarga"],
     price: 385000,
-    images: ["/products/syawal-elegance-1.svg", "/products/syawal-elegance-2.svg"],
+    images: ["/products/syawal-elegance-1-v2.svg", "/products/syawal-elegance-2-v2.svg"],
     shortDescription:
       "Hampers Idul Fitri klasik dengan kurma premium dan kue kering homemade dalam box hardcover hijau emas.",
     longDescription:
@@ -45,7 +45,7 @@ export const products: Product[] = [
     category: "lebaran",
     occasions: ["lebaran", "ramadan", "idul fitri"],
     price: 550000,
-    images: ["/products/ramadan-nights-1.svg", "/products/ramadan-nights-2.svg"],
+    images: ["/products/ramadan-nights-1-v2.svg", "/products/ramadan-nights-2-v2.svg"],
     shortDescription:
       "Rangkaian premium bernuansa malam Ramadan: sajadah travel, kurma Medjool, madu hutan, dan lilin aromaterapi oud.",
     longDescription:
@@ -73,7 +73,7 @@ export const products: Product[] = [
     category: "lebaran",
     occasions: ["lebaran", "idul fitri", "hadiah kecil"],
     price: 195000,
-    images: ["/products/fitri-petite-1.svg", "/products/fitri-petite-2.svg"],
+    images: ["/products/fitri-petite-1-v2.svg", "/products/fitri-petite-2-v2.svg"],
     shortDescription:
       "Hampers mungil nan manis — duo kue kering dan teh premium untuk berbagi kebahagiaan tanpa berlebihan.",
     longDescription:
@@ -99,7 +99,7 @@ export const products: Product[] = [
     category: "natal-tahun-baru",
     occasions: ["natal", "christmas", "keluarga"],
     price: 425000,
-    images: ["/products/noel-classique-1.svg", "/products/noel-classique-2.svg"],
+    images: ["/products/noel-classique-1-v2.svg", "/products/noel-classique-2-v2.svg"],
     shortDescription:
       "Hampers Natal klasik: praline cokelat, kukis jahe, cocoa artisan, dan lilin kayu manis dalam box hijau emas.",
     longDescription:
@@ -131,8 +131,8 @@ export const products: Product[] = [
     occasions: ["tahun baru", "new year", "perayaan"],
     price: 680000,
     images: [
-      "/products/midnight-celebration-1.svg",
-      "/products/midnight-celebration-2.svg",
+      "/products/midnight-celebration-1-v2.svg",
+      "/products/midnight-celebration-2-v2.svg",
     ],
     shortDescription:
       "Sambut pergantian tahun dengan sparkling juice, keju, praline, dan dua gelas flute dalam kemasan mewah.",
@@ -161,7 +161,7 @@ export const products: Product[] = [
     category: "wedding",
     occasions: ["wedding", "pernikahan", "bridesmaid", "door gift"],
     price: 320000,
-    images: ["/products/eternal-vow-1.svg", "/products/eternal-vow-2.svg"],
+    images: ["/products/eternal-vow-1-v2.svg", "/products/eternal-vow-2-v2.svg"],
     shortDescription:
       "Bridesmaid box yang anggun: lilin soy, scrunchie satin, dan cokelat artisan — manis tanpa berlebihan.",
     longDescription:
@@ -187,7 +187,7 @@ export const products: Product[] = [
     category: "wedding",
     occasions: ["wedding", "pernikahan", "seserahan", "hantaran", "anniversary"],
     price: 895000,
-    images: ["/products/rosewood-union-1.svg", "/products/rosewood-union-2.svg"],
+    images: ["/products/rosewood-union-1-v2.svg", "/products/rosewood-union-2-v2.svg"],
     shortDescription:
       "Hampers pernikahan mewah dengan reed diffuser mawar, handuk premium bermonogram, dan teh bunga artisan.",
     longDescription:
@@ -215,7 +215,7 @@ export const products: Product[] = [
     category: "corporate",
     occasions: ["corporate", "kantor", "klien", "apresiasi"],
     price: 475000,
-    images: ["/products/executive-suite-1.svg", "/products/executive-suite-2.svg"],
+    images: ["/products/executive-suite-1-v2.svg", "/products/executive-suite-2-v2.svg"],
     shortDescription:
       "Hampers korporat berkelas: tumbler thermal, kopi single origin, notebook linen, dan pena metal.",
     longDescription:
@@ -247,8 +247,8 @@ export const products: Product[] = [
     occasions: ["corporate", "klien", "kemitraan", "akhir tahun"],
     price: 1250000,
     images: [
-      "/products/grand-partnership-1.svg",
-      "/products/grand-partnership-2.svg",
+      "/products/grand-partnership-1-v2.svg",
+      "/products/grand-partnership-2-v2.svg",
     ],
     shortDescription:
       "Hampers premium untuk mitra terpenting: sparkling tea, kopi arabika, cokelat single origin, dalam chest kayu jati.",
@@ -278,7 +278,7 @@ export const products: Product[] = [
     category: "corporate",
     occasions: ["corporate", "onboarding", "karyawan baru"],
     price: 350000,
-    images: ["/products/welcome-aboard-1.svg", "/products/welcome-aboard-2.svg"],
+    images: ["/products/welcome-aboard-1-v2.svg", "/products/welcome-aboard-2-v2.svg"],
     shortDescription:
       "Onboarding kit yang hangat untuk anggota tim baru: mug keramik, kopi drip, kukis, dan catatan linen.",
     longDescription:
@@ -305,7 +305,7 @@ export const products: Product[] = [
     category: "birthday",
     occasions: ["birthday", "ulang tahun", "anniversary"],
     price: 395000,
-    images: ["/products/golden-hour-1.svg", "/products/golden-hour-2.svg"],
+    images: ["/products/golden-hour-1-v2.svg", "/products/golden-hour-2-v2.svg"],
     shortDescription:
       "Perayaan ulang tahun dalam nuansa emas: cake jar duo, praline, teh bunga telang, dan lilin premium.",
     longDescription:
@@ -333,8 +333,8 @@ export const products: Product[] = [
     occasions: ["birthday", "ulang tahun", "hadiah kecil"],
     price: 285000,
     images: [
-      "/products/sweet-celebration-1.svg",
-      "/products/sweet-celebration-2.svg",
+      "/products/sweet-celebration-1-v2.svg",
+      "/products/sweet-celebration-2-v2.svg",
     ],
     shortDescription:
       "Kejutan manis yang ringkas: brownies fudge, kukis butter, dan teh stroberi dalam box merah muda lembut.",
@@ -363,8 +363,8 @@ export const products: Product[] = [
     occasions: ["birthday", "ulang tahun", "anniversary", "wisuda"],
     price: 465000,
     images: [
-      "/products/blooming-wishes-1.svg",
-      "/products/blooming-wishes-2.svg",
+      "/products/blooming-wishes-1-v2.svg",
+      "/products/blooming-wishes-2-v2.svg",
     ],
     shortDescription:
       "Buket bunga kering mini berpadu madu stik, granola, mug, dan lilin soy — hadiah yang bermekaran.",

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14342b"/>
+      <stop offset="1" stop-color="#1e4a3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="560" r="270" fill="#f7f3e9" opacity="0.05"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#c9a227" stroke-width="2"/>
+  <rect x="52" y="52" width="696" height="896" fill="none" stroke="#c9a227" stroke-width="0.75" opacity="0.6"/>
+  <g transform="translate(0,-40)">
+  <ellipse cx="400" cy="852" rx="266" ry="26" fill="#26251f" opacity="0.14"/>
+  
+  <rect x="276" y="228" width="32" height="30" rx="5" fill="#c9a227"/>
+  <rect x="279" y="250" width="26" height="70" fill="#2e4a44"/>
+  <rect x="254" y="300" width="76" height="260" rx="18" fill="#2e4a44"/>
+  <rect x="266" y="382" width="52" height="88" rx="6" fill="#f7f3e9" opacity="0.92"/>
+  <line x1="276" y1="408" x2="308" y2="408" stroke="#c9a227" stroke-width="3"/>
+  <line x1="280" y1="430" x2="304" y2="430" stroke="#26251f" stroke-width="2" opacity="0.5"/>
+  <rect x="348" y="378" width="104" height="28" rx="9" fill="#7a5a28"/>
+  <rect x="352" y="400" width="96" height="160" rx="12" fill="#a3742f"/>
+  <rect x="366" y="440" width="68" height="76" rx="6" fill="#f7f3e9" opacity="0.92"/>
+  <line x1="380" y1="466" x2="420" y2="466" stroke="#c9a227" stroke-width="3"/>
+  <line x1="384" y1="488" x2="416" y2="488" stroke="#26251f" stroke-width="2" opacity="0.5"/>
+  <rect x="468" y="350" width="80" height="210" rx="6" fill="#26251f"/>
+  <rect x="468" y="350" width="80" height="44" rx="6" fill="#c9a227"/>
+  <line x1="508" y1="400" x2="508" y2="552" stroke="#f7f3e9" stroke-width="2" opacity="0.4"/>
+  <line x1="476" y1="440" x2="540" y2="440" stroke="#f7f3e9" stroke-width="2" opacity="0.4"/>
+  <line x1="476" y1="486" x2="540" y2="486" stroke="#f7f3e9" stroke-width="2" opacity="0.4"/>
+  <line x1="476" y1="530" x2="540" y2="530" stroke="#f7f3e9" stroke-width="2" opacity="0.4"/>
+  <rect x="190" y="520" width="420" height="320" rx="14" fill="#10241f"/>
+  <rect x="172" y="495" width="456" height="62" rx="10" fill="#10241f"/>
+  <rect x="172" y="495" width="456" height="62" rx="10" fill="#26251f" opacity="0.18"/>
+  <rect x="382" y="495" width="36" height="345" fill="#c9a227"/>
+  <rect x="382" y="495" width="36" height="345" fill="#f7f3e9" opacity="0.12"/>
+  <ellipse cx="362" cy="492" rx="40" ry="22" fill="#c9a227" transform="rotate(-22 362 492)"/>
+  <ellipse cx="438" cy="492" rx="40" ry="22" fill="#c9a227" transform="rotate(22 438 492)"/>
+  <path d="M392 512 L378 566 L402 556 Z" fill="#c9a227"/>
+  <path d="M408 512 L422 566 L398 556 Z" fill="#c9a227"/>
+  <circle cx="400" cy="492" r="15" fill="#c9a227" stroke="#f7f3e9" stroke-width="2.5"/></g>
+  <text x="400" y="900" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#f7f3e9">Midnight Celebration</text>
+  <text x="400" y="940" text-anchor="middle" font-family="Georgia, serif" font-size="19" letter-spacing="5" fill="#c9a227">NATAL &amp; TAHUN BARU</text>
+</svg>

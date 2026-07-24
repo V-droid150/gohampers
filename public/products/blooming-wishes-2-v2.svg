@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f3e9"/>
+      <stop offset="1" stop-color="#eee5d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="560" r="270" fill="#14342b" opacity="0.05"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#c9a227" stroke-width="2"/>
+  <rect x="52" y="52" width="696" height="896" fill="none" stroke="#c9a227" stroke-width="0.75" opacity="0.6"/>
+  <g transform="translate(0,-40)">
+  <ellipse cx="400" cy="852" rx="266" ry="26" fill="#26251f" opacity="0.14"/>
+  
+  <circle cx="340" cy="496" r="26" fill="none" stroke="#4a6a8a" stroke-width="13"/>
+  <rect x="252" y="438" width="80" height="122" rx="10" fill="#4a6a8a"/>
+  <ellipse cx="292" cy="442" rx="38" ry="9" fill="#26251f" opacity="0.25"/>
+  <rect x="266" y="478" width="52" height="44" rx="5" fill="#f7f3e9" opacity="0.9"/>
+  <line x1="280" y1="500" x2="304" y2="500" stroke="#c9a227" stroke-width="3"/>
+  <rect x="348" y="378" width="104" height="28" rx="9" fill="#7a5a28"/>
+  <rect x="352" y="400" width="96" height="160" rx="12" fill="#c9812e"/>
+  <rect x="366" y="440" width="68" height="76" rx="6" fill="#f7f3e9" opacity="0.92"/>
+  <line x1="380" y1="466" x2="420" y2="466" stroke="#c9a227" stroke-width="3"/>
+  <line x1="384" y1="488" x2="416" y2="488" stroke="#26251f" stroke-width="2" opacity="0.5"/><line x1="508" y1="560" x2="450" y2="346" stroke="#7a6a45" stroke-width="4"/><line x1="508" y1="560" x2="480" y2="310" stroke="#7a6a45" stroke-width="4"/><line x1="508" y1="560" x2="510" y2="292" stroke="#7a6a45" stroke-width="4"/><line x1="508" y1="560" x2="540" y2="312" stroke="#7a6a45" stroke-width="4"/><line x1="508" y1="560" x2="568" y2="350" stroke="#7a6a45" stroke-width="4"/>
+  <ellipse cx="474" cy="430" rx="9" ry="26" fill="#5d7a5a" transform="rotate(-28 474 430)"/>
+  <ellipse cx="538" cy="440" rx="9" ry="26" fill="#5d7a5a" transform="rotate(24 538 440)"/>
+  <circle cx="450" cy="336" r="17" fill="#c9a227"/>
+  <circle cx="450" cy="336" r="7" fill="#f7f3e9" opacity="0.85"/>
+  <circle cx="480" cy="300" r="17" fill="#b98a4a"/>
+  <circle cx="480" cy="300" r="7" fill="#f7f3e9" opacity="0.85"/>
+  <circle cx="510" cy="282" r="17" fill="#c98a8a"/>
+  <circle cx="510" cy="282" r="7" fill="#f7f3e9" opacity="0.85"/>
+  <circle cx="540" cy="302" r="17" fill="#e3c566"/>
+  <circle cx="540" cy="302" r="7" fill="#f7f3e9" opacity="0.85"/>
+  <circle cx="568" cy="340" r="17" fill="#8a5a3f"/>
+  <circle cx="568" cy="340" r="7" fill="#f7f3e9" opacity="0.85"/>
+  <rect x="190" y="520" width="420" height="320" rx="14" fill="#a3742f"/><line x1="196" y1="575" x2="604" y2="575" stroke="#26251f" stroke-width="5" opacity="0.22"/><line x1="196" y1="630" x2="604" y2="630" stroke="#26251f" stroke-width="5" opacity="0.22"/><line x1="196" y1="685" x2="604" y2="685" stroke="#26251f" stroke-width="5" opacity="0.22"/><line x1="196" y1="740" x2="604" y2="740" stroke="#26251f" stroke-width="5" opacity="0.22"/><line x1="196" y1="795" x2="604" y2="795" stroke="#26251f" stroke-width="5" opacity="0.22"/><line x1="250" y1="528" x2="250" y2="836" stroke="#f7f3e9" stroke-width="4" opacity="0.18"/><line x1="320" y1="528" x2="320" y2="836" stroke="#f7f3e9" stroke-width="4" opacity="0.18"/><line x1="390" y1="528" x2="390" y2="836" stroke="#f7f3e9" stroke-width="4" opacity="0.18"/><line x1="460" y1="528" x2="460" y2="836" stroke="#f7f3e9" stroke-width="4" opacity="0.18"/><line x1="530" y1="528" x2="530" y2="836" stroke="#f7f3e9" stroke-width="4" opacity="0.18"/>
+  <rect x="172" y="495" width="456" height="62" rx="10" fill="#a3742f"/>
+  <rect x="172" y="495" width="456" height="62" rx="10" fill="#26251f" opacity="0.18"/>
+  <rect x="382" y="495" width="36" height="345" fill="#c98a8a"/>
+  <rect x="382" y="495" width="36" height="345" fill="#f7f3e9" opacity="0.12"/>
+  <ellipse cx="362" cy="492" rx="40" ry="22" fill="#c98a8a" transform="rotate(-22 362 492)"/>
+  <ellipse cx="438" cy="492" rx="40" ry="22" fill="#c98a8a" transform="rotate(22 438 492)"/>
+  <path d="M392 512 L378 566 L402 556 Z" fill="#c98a8a"/>
+  <path d="M408 512 L422 566 L398 556 Z" fill="#c98a8a"/>
+  <circle cx="400" cy="492" r="15" fill="#c98a8a" stroke="#f7f3e9" stroke-width="2.5"/></g>
+  <text x="400" y="900" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#14342b">Blooming Wishes</text>
+  <text x="400" y="940" text-anchor="middle" font-family="Georgia, serif" font-size="19" letter-spacing="5" fill="#c9a227">BIRTHDAY</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14342b"/>
+      <stop offset="1" stop-color="#1e4a3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="560" r="270" fill="#f7f3e9" opacity="0.05"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#c9a227" stroke-width="2"/>
+  <rect x="52" y="52" width="696" height="896" fill="none" stroke="#c9a227" stroke-width="0.75" opacity="0.6"/>
+  <g transform="translate(0,-40)">
+  <ellipse cx="400" cy="852" rx="266" ry="26" fill="#26251f" opacity="0.14"/>
+  
+  <ellipse cx="292" cy="526" rx="42" ry="26" fill="#c98a5f" stroke="#8a6435" stroke-width="2"/>
+  <circle cx="278" cy="520" r="4.5" fill="#26251f" opacity="0.35"/><circle cx="302" cy="516" r="4.5" fill="#26251f" opacity="0.35"/><circle cx="296" cy="532" r="4.5" fill="#26251f" opacity="0.35"/>
+  <ellipse cx="292" cy="488" rx="42" ry="26" fill="#c98a5f" stroke="#8a6435" stroke-width="2"/>
+  <circle cx="278" cy="482" r="4.5" fill="#26251f" opacity="0.35"/><circle cx="302" cy="478" r="4.5" fill="#26251f" opacity="0.35"/><circle cx="296" cy="494" r="4.5" fill="#26251f" opacity="0.35"/>
+  <ellipse cx="292" cy="450" rx="42" ry="26" fill="#c98a5f" stroke="#8a6435" stroke-width="2"/>
+  <circle cx="278" cy="444" r="4.5" fill="#26251f" opacity="0.35"/><circle cx="302" cy="440" r="4.5" fill="#26251f" opacity="0.35"/><circle cx="296" cy="456" r="4.5" fill="#26251f" opacity="0.35"/>
+  <rect x="360" y="350" width="80" height="210" rx="6" fill="#5d3a35"/>
+  <rect x="360" y="350" width="80" height="44" rx="6" fill="#c9a227"/>
+  <line x1="400" y1="400" x2="400" y2="552" stroke="#f7f3e9" stroke-width="2" opacity="0.4"/>
+  <line x1="368" y1="440" x2="432" y2="440" stroke="#f7f3e9" stroke-width="2" opacity="0.4"/>
+  <line x1="368" y1="486" x2="432" y2="486" stroke="#f7f3e9" stroke-width="2" opacity="0.4"/>
+  <line x1="368" y1="530" x2="432" y2="530" stroke="#f7f3e9" stroke-width="2" opacity="0.4"/>
+  <rect x="456" y="378" width="104" height="28" rx="9" fill="#7a5a28"/>
+  <rect x="460" y="400" width="96" height="160" rx="12" fill="#c96a7a"/>
+  <rect x="474" y="440" width="68" height="76" rx="6" fill="#f7f3e9" opacity="0.92"/>
+  <line x1="488" y1="466" x2="528" y2="466" stroke="#c9a227" stroke-width="3"/>
+  <line x1="492" y1="488" x2="524" y2="488" stroke="#26251f" stroke-width="2" opacity="0.5"/>
+  <rect x="190" y="520" width="420" height="320" rx="14" fill="#d8a7a0"/>
+  <rect x="172" y="495" width="456" height="62" rx="10" fill="#d8a7a0"/>
+  <rect x="172" y="495" width="456" height="62" rx="10" fill="#26251f" opacity="0.18"/>
+  <rect x="382" y="495" width="36" height="345" fill="#6d1f2c"/>
+  <rect x="382" y="495" width="36" height="345" fill="#f7f3e9" opacity="0.12"/>
+  <ellipse cx="362" cy="492" rx="40" ry="22" fill="#6d1f2c" transform="rotate(-22 362 492)"/>
+  <ellipse cx="438" cy="492" rx="40" ry="22" fill="#6d1f2c" transform="rotate(22 438 492)"/>
+  <path d="M392 512 L378 566 L402 556 Z" fill="#6d1f2c"/>
+  <path d="M408 512 L422 566 L398 556 Z" fill="#6d1f2c"/>
+  <circle cx="400" cy="492" r="15" fill="#6d1f2c" stroke="#f7f3e9" stroke-width="2.5"/></g>
+  <text x="400" y="900" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#f7f3e9">Sweet Celebration</text>
+  <text x="400" y="940" text-anchor="middle" font-family="Georgia, serif" font-size="19" letter-spacing="5" fill="#c9a227">BIRTHDAY</text>
+</svg>

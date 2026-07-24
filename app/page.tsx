@@ -101,7 +101,7 @@ export default function Home() {
           </div>
           <div className="relative aspect-[16/10] overflow-hidden rounded-lg border border-gold/40">
             <Image
-              src="/hero.svg"
+              src="/hero-v2.svg"
               alt="Rangkaian hampers premium Gohampers dengan nuansa hijau dan emas"
               fill
               priority

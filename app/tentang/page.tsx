@@ -24,7 +24,7 @@ export default function TentangPage() {
 
         <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-lg border border-gold/30">
           <Image
-            src="/hero.svg"
+            src="/hero-v2.svg"
             alt="Nuansa hijau dan emas khas Gohampers"
             fill
             sizes="(max-width: 768px) 100vw, 768px"
